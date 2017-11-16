@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>WallString - About Us</title>
+    <title>WallString - Products</title>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,6 @@
     <div class="container">
       <nav style="margin-top: 15px;"class="navbar navbar-default">
         <div class="container-fluid">
-
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
               <span class="icon-bar"></span>
@@ -24,12 +23,11 @@
             </button>
             <a class="navbar-brand" href="../index.html">WallString</a>
           </div>
-
           <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav">
               <li><a href="../index.html">Home</a></li>
-              <li><a href="products.html">Products</a></li>
-              <li class="active"><a href="#">About Us</a></li>
+              <li class="active"><a href="#">Products</a></li>
+              <li><a href="about.html">About Us</a></li>
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -41,19 +39,49 @@
         </div>
       </nav>
       <div class="jumbotron">
-        <h2>About Us</h2>
-          <hr>
-          <p>
-            We started our business drawing inspiration from
-            drawstring bags. Our design came from heatpressed
-            crayons.
-          </p>
-          <hr>
+        <ul class="breadcrumb">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li class="active">Wallet</li>
+        </ul>
+            
+        <hr>
+        <div class="row">
+
+          <div class="col-sm-5">
+            <img src="../images/placeholder-preview.jpg">
+          </div>
+
+          <div class="col-sm-6">
+            <h2><b> Wallet </b></h2>
+            <p>
+              Crafted with the finest materials.
+              Wallet is a sure purchase for those
+              who wishes of quality. Light and
+              durable construction, perfect for students.
+
+              <br><br>
+
+              Price: ₱50/pc <br>
+              Quantity: 
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon">₱</span>
+                  <input class="form-control" type="text">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Button</button>
+                  </span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-primary">Add to Cart</button>
+
+            </p>
+
+          </div>
+        </div>
 
       </div>
-     
-      </div>
-
+      
     </div>
   </body>
 </html>
